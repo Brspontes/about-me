@@ -1,0 +1,70 @@
+.container-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-name {
+  color: var(--gray-2);
+  font-weight: bold;
+  font-size: 3.125rem;
+}
+
+.last-name {
+  color: var(--gray-3);
+  font-weight: bold;
+  font-size: 3.125rem;
+}
+
+.menu-about {
+  min-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.menu-about > a {
+  text-decoration: none;
+  color: var(--gray-3);
+  font-size: 1.625rem;
+}
+
+.menu-contact {
+  min-width: 600px;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.menu-contact > a {
+  text-decoration: none;
+  color: var(--gray-3);
+  font-size: 1.625rem;
+}
+
+.menu-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-icon-align {
+  padding-right: 0.5rem;
+}
+
+.menu-icon-contact {
+  width: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+
+  padding: 0.5rem;
+
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 4px;
+  border-image-source: linear-gradient(to left, var(--green-1), var(--white-0));
+}

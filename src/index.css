@@ -1,0 +1,8 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: var(--gray-1);
+  background: linear-gradient(to bottom right, var(--black-0), var(--gray-0))
+    no-repeat;
+}
